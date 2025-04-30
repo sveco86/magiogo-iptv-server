@@ -41,7 +41,7 @@ jobs:
         id: docker_meta
         uses: crazy-max/ghaction-docker-meta@v1
         with:
-          images: cvb941/magiogo-iptv-server
+          images: sveco86/magiogo-iptv-server
           tag-custom: latest
           tag-semver: |
             {{raw}}
